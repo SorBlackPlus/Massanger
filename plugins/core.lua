@@ -1,5 +1,5 @@
 local help_text = [[
-*Beyond Messeger Bot Commands :*
+*Prime Messeger Bot Commands :*
 
 */id*
 _Show Your And Chat ID_
@@ -52,25 +52,25 @@ _Set The Maximun Messages In A FloodTime To Be Considered As flood_
 */setpvfloodtime*
 _Set The Time That Bot Uses To Check flood_
 
-*/beyond*
+*/Prime*
 _Show About Bot_
 
-[Beyond Team Channel](Telegram.Me/BeyondTeam)
-_Good Luck_ *:D*
+[Prime Team Channel](Telegram.Me/PrimeTeam)
+_Sudo: @SorBlack_ *:D*
 
 ]]
 
 local mem_help = [[
-*Welcome To Beyond Messenger Bot :*
+*Welcome To Prime Messenger Bot :*
 
 */id*
 _Show Your And Chat ID_
 
-*/beyond*
+*/Prime*
 _Show About Bot_
 
-[Beyond Team Channel](Telegram.Me/BeyondTeam)
-_Good Luck_ *:D*
+[Prime Team Channel](Telegram.Me/PrimeTeam)
+_Sudo: @SorBlack_ *:D*
 
 ]]
 
@@ -88,7 +88,7 @@ local function reload_plugins( )
   load_plugins() 
 end
 
---By @SoLiD021
+--By @SorBlack
 local function already_sudo(user_id)
   for k,v in pairs(_config.sudo_users) do
     if user_id == v then
@@ -141,7 +141,7 @@ if matches[1] == "setrealm" and is_sudo(msg) then
    redis:set("realm",msg.chat.id)
 return "*Realm has been add*"
 end
-if matches[1] == "beyond" then
+if matches[1] == "Prime" then
 return _config.info_text
 end
 if matches[1] == "users" and is_sudo(msg) then
