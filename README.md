@@ -1,6 +1,6 @@
 # [Massanger](https://t.me/PmSorBlackBot)
 
-[![SorBlack](http://img.shields.io/badge/Bot%20API-v2.3.1-00aced.svg)](https://t.me/SorBlack)
+[![SorBlack](http://img.shields.io/badge/SorBlack%20-v2.3.1-00aced.svg)](https://t.me/SorBlack)
 [![https://t.me/PrimeTeam](https://img.shields.io/badge/💬%20Telegram-PrimeTeam-00aced.svg)](https://t.me/PrimeTeam)
 
 ## Prime Massanger V1.0 
