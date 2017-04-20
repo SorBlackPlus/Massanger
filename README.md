@@ -51,7 +51,7 @@ More information [Prime Global Chat](https://t.me/joinchat/AAAAAEIIFrX5TQkoIuDB
 
 [SorBlack](https://github.com/SorBlackPlus) ([Telegram](https://t.me/SorBlack))
 
-[iam_nagin]([Telegram](https://t.me/iam_nagin))
+[iam_nagin](https://t.me/iam_nagin))
 
 ### Our Telegram channel:
 
