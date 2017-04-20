@@ -2,7 +2,7 @@ package.path = package.path..';.luarocks/share/lua/5.2/?.lua;.luarocks/share/lua
 package.cpath = package.cpath..';.luarocks/lib/lua/5.2/?.so'
     bot_token = "Token" --Put You Token Here
    send_api = "https://api.telegram.org/bot"..bot_token
-sudo_id = 157059515
+sudo_id = 93365812
 require('./bot/methods')
 http = require('socket.http')
 https = require('ssl.https')
@@ -130,27 +130,25 @@ function create_config( )
     enabled_plugins = {
     "core"
     },
-    sudo_users = {157059515},--Sudo users
-    info_text = [[*》Beyond Messenger V1.0*
-`》An messenger bot based on plugin`
+    sudo_users = {93365812},--Sudo users
+    info_text = [[*》Prime Massanger V1.0*
+`》An massanger bot based on plugin`
 
-》[Beyond Messenger](https://github.com/BeyondTeam/BDMessenger)
+》[Prime Massanger](https://github.com/SorBlackPlus/Massanger)
 
 *》Admins :*
-*》Founder & Developer :* [SoLiD](Telegram.Me/SoLiD)
-_》Developer & Sponser :_ [MAKAN](Telegram.Me/MAKAN)
-_》Developer :_ [ToOfan](Telegram.Me/ToOfan)
-_》Developer :_ [Ehsan](Telegram.Me/CliFather)
+*》Founder & Developer :* [SorBlack](Telegram.Me/SorBlack)
+_》Developer & Sponser :_ [iam_nagin](Telegram.Me/iam_nagin)
 
 *》Special thanks to :*
-》[MrHalix](Telegram.Me/MrHalix)
-`And Beyond Team Members`
+》[iam_nagin](Telegram.Me/iam_nagin)
+`And Prime Team Members`
 
 *》Our channel :*
-》[BeyondTeam](Telegram.Me/BeyondTeam)
+》[PrimeTeam](Telegram.Me/PrimeTeam)
 
 *》Our Site :*
-[BeyondTeam](BeyondTeam.ir)
+[LovelyCreation](LovelyCreation.blogfa.ir)
 ]],
   }
   serialize_to_file(config, './data/config.lua')
