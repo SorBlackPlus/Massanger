@@ -88,4 +88,4 @@ function check_markdown(text) --markdown escape ( when you need to escape markdo
 			output = str
 		end
 	return output
-end
+end 
